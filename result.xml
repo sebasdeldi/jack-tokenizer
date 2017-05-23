@@ -1,0 +1,54 @@
+ClassNode1
+  Keyword2Node1 > "class"
+  ClassnameNode1 > IdentifierNode1 > "Main"
+  Symbol5Node1 > "{"
+  SubroutinedecposNode1 > SubroutinedecNode1
+    Keyword5Node1 > "function"
+    Keyword13Node1 > "void"
+    SubroutinenameNode1 > IdentifierNode1 > "main"
+    Symbol6Node1 > "("
+    Symbol6Node1 > ")"
+    SubroutinebodyNode1
+      Symbol5Node1 > "{"
+      VardecposNode1 > VardecNode1
+        Keyword6Node1 > "var"
+        TypeNode2 > ClassnameNode1 > IdentifierNode1 > "SquareGame"
+        VarnameNode1 > IdentifierNode1 > "game"
+        VardecendNode2 > Symbol2Node1 > ";"
+      StatementsNode1 > StatementposNode1
+        StatementNode1 > LetstatementNode2
+          Keyword7Node1 > "let"
+          VarnameNode1 > IdentifierNode1 > "game"
+          Symbol3Node1 > "="
+          ExpressionNode1 > TermNode1 > SubroutinecallNode2
+            ClassnameNode1 > IdentifierNode1 > "SquareGame"
+            Symbol7Node1 > "."
+            SubroutinenameNode1 > IdentifierNode1 > "new"
+            Symbol6Node1 > "("
+            Symbol6Node1 > ")"
+          Symbol2Node1 > ";"
+        StatementsendNode1 > StatementposNode1
+          StatementNode4 > DostatementNode1
+            Keyword10Node1 > "do"
+            SubroutinecallNode2
+              ClassnameNode1 > IdentifierNode1 > "game"
+              Symbol7Node1 > "."
+              SubroutinenameNode1 > IdentifierNode1 > "run"
+              Symbol6Node1 > "("
+              Symbol6Node1 > ")"
+            Symbol2Node1 > ";"
+          StatementsendNode1 > StatementposNode1
+            StatementNode4 > DostatementNode1
+              Keyword10Node1 > "do"
+              SubroutinecallNode2
+                ClassnameNode1 > IdentifierNode1 > "game"
+                Symbol7Node1 > "."
+                SubroutinenameNode1 > IdentifierNode1 > "dispose"
+                Symbol6Node1 > "("
+                Symbol6Node1 > ")"
+              Symbol2Node1 > ";"
+            StatementsendNode1 > StatementposNode1 > StatementNode5 > ReturnstatementNode2
+              Keyword11Node1 > "return"
+              Symbol2Node1 > ";"
+      Symbol5Node1 > "}"
+  Symbol5Node1 > "}"
